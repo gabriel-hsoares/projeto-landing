@@ -129,6 +129,14 @@
 }
 
 
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    width: 80%;
+    margin: 0 auto;
+}
+
 .benefit {
     text-align: center;
     display: flex;
@@ -150,11 +158,9 @@
 #benefit-1 {
     background-image: url('img/24-7.png');
 }
-
 #benefit-2 {
     background-image: url('img/conjuge-filhos.png');
 }
-
 #benefit-3 {
     background-image: url('img/acidentes-pessoais.png');
 }
@@ -172,6 +178,7 @@
     #head-page {
         flex-direction: column;
         height: auto;
+        width: auto;
     }
 
     #logos img {
