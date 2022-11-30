@@ -209,4 +209,7 @@
         max-width: 100%;
         margin: 2em;
     }
+    .btn {
+        padding: 2em;
+    }
 }
