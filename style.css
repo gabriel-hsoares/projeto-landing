@@ -18,6 +18,20 @@
 
 /* Event form */
 
+#logos {
+    display: flex;
+    justify-content: center;
+    padding: .4em;
+}
+
+#logos img {
+    width: 150px;
+}
+
+.beneficium {
+    margin-left: 5%;
+}
+
 #head-page {
     height: 85vh;
     width: 98.9vw;
