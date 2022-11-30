@@ -128,20 +128,6 @@
     text-transform: uppercase;
 }
 
-.benefits-line1 {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 2em;
-    width: 80%;
-    margin: 0 auto;
-}
-.benefits-line2 {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 4em;
-    width: 50%;
-    margin: 0 auto;
-}
 
 .benefit {
     text-align: center;
@@ -179,3 +165,37 @@
     background-image: url('img/sorteio-mensal.png');
 }
 
+/* MOBILE */
+
+@media (max-width: 450px) {
+    /*EVENT FORM*/
+    #head-page {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #disclaimer {
+        padding: 2em;
+    }
+
+    #disclaimer h2 {
+        margin-bottom: .5em;
+    }
+
+    #subscription-form {
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .benefit{
+        max-width: 100%;
+        margin: 2em;
+    }
+}
