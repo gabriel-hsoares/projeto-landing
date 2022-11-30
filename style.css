@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #002855;
+    --secondary: #666;
+    --tertiary: #fff;
+    --quart: #5EB948;
+}
+
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Event form */
+
+#head-page {
+    height: 85vh;
+    width: 98.9vw;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--tertiary);
+}
+
+#disclaimer h2, 
+#disclaimer .more-benefits {
+    color: var(--quart);
+}
+
+#disclaimer h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#disclaimer .about-product {
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 450px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#disclaimer p {
+    font-size: 1.2em;
+    margin-bottom: .3em;
+}
+
+#disclaimer .more-benefits {
+    font-weight: bold;
+    max-width: 450px;
+}
+
+#telm {
+    margin-top: 110%;
+    width: 350px;
+    
+}
+
+#subscription-form {
+    background-color: var(--tertiary);
+    color: #002855;
+    padding: 2em;
+    max-width: 22%;
+}
+
+#subscription-form p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .8em;
+}
+
+.form-group label {
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+}
+
+.btn {
+    background-color: #5EB948;
+    color: var(--tertiary);
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* Benefits Section */
+#key-benefits h2 {
+    background-color: var(--quart);
+    text-align: center;
+    padding: 2em;
+    font-weight: bold;
+    color: var(--tertiary);
+    text-transform: uppercase;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.benefit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--secondary);
+}
+
+.benefit .benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#benefit-1 {
+    background-image: url('img/24-7.png');
+}
+
+#benefit-2 {
+    background-image: url('img/conjuge-filhos.png');
+}
+
+#benefit-3 {
+    background-image: url('img/acidentes-pessoais.png');
+}
+#benefit-4 {
+    background-image: url('img/assist-residencial.png');
+}
+#benefit-5 {
+    background-image: url('img/sorteio-mensal.png');
+}
