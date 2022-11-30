@@ -119,11 +119,18 @@
     text-transform: uppercase;
 }
 
-.benefits {
+.benefits-line1 {
     display: flex;
     justify-content: space-around;
-    padding: 4em;
-    width: 90%;
+    padding-top: 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+.benefits-line2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4em;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -162,3 +169,4 @@
 #benefit-5 {
     background-image: url('img/sorteio-mensal.png');
 }
+
