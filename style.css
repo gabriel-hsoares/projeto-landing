@@ -57,10 +57,14 @@
     max-width: 450px;
 }
 
+#telemd {
+    position: relative;
+}
+
 #telm {
-    margin-top: 110%;
+    position: relative;
+    bottom: 0;
     width: 350px;
-    
 }
 
 #subscription-form {
