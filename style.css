@@ -269,9 +269,6 @@ footer {
         max-width: 100%;
         margin: 2em;
     }
-    .btn {
-        padding: 12px;
-    }
     a {
         bottom: 20px;
         right: 10px;
@@ -285,7 +282,7 @@ footer {
         padding: 1.2em;
     }
     #video-benefits {
-        width: auto;
+        width: 400px;
         padding: 1em;
     }
 }
