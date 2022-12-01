@@ -221,6 +221,11 @@ footer {
     font-size: .7em;
 }
 
+#video iframe {
+    width: 560px;
+    height: 315px;
+}
+
 
 /*#social i {
     font-size: 24px;
@@ -279,7 +284,7 @@ footer {
         text-align: justify;
         padding: 1.2em;
     }
-    #video-benefits {
+    #video-benefits iframe {
         width: 400px;
         padding: 1em;
     }
