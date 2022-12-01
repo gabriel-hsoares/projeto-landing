@@ -279,14 +279,15 @@ footer {
     #video {
         flex-direction: column;
     }
-    #video-describe{
+    #video-describe {
         max-width: 100%;
         text-align: justify;
-        padding: 1.2em;
+        padding: .8em;
     }
     #video-benefits iframe {
         width: 400px;
         padding: 1em;
+
     }
     footer {
         width: auto;
