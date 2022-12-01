@@ -190,7 +190,7 @@
     background-image: url('img/sorteio-mensal.png');
 }
 
-a {
+.zap a {
     position:fixed;
     width:60px;
     height:60px;
@@ -227,13 +227,16 @@ footer {
 }
 
 
-/*#social i {
+#social a, i{
     font-size: 24px;
-    padding: 1.2em;
+    padding: .2em;
+    width: 2%;
+    color: white;
     margin: auto;
-
 }
-*/
+
+
+
 /* MOBILE */
 
 @media (max-width: 450px) {
@@ -272,7 +275,7 @@ footer {
         max-width: 100%;
         margin: 2em;
     }
-    a {
+    .zap a {
         bottom: 20px;
         right: 10px;
     }
@@ -282,7 +285,7 @@ footer {
     #video-describe {
         max-width: 100%;
         text-align: justify;
-        padding: .8em;
+        padding: .3em;
     }
     #video-benefits iframe {
         width: 400px;
