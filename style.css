@@ -284,4 +284,8 @@ footer {
         text-align: justify;
         padding: 1.2em;
     }
+    #video-benefits {
+        width: auto;
+        padding: 1em;
+    }
 }
