@@ -219,6 +219,8 @@ footer {
     text-align: justify;
     font-weight: 500;
     font-size: .7em;
+    color: white;
+    text-decoration: none;
 }
 
 #video iframe {
@@ -281,6 +283,8 @@ footer {
     }
     #video {
         flex-direction: column;
+        width: auto;
+        justify-content: center;
     }
     #video-describe {
         max-width: auto;
