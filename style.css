@@ -283,7 +283,7 @@ footer {
         flex-direction: column;
     }
     #video-describe {
-        max-width: 100%;
+        max-width: auto;
         text-align: justify;
         padding: .3em;
     }
