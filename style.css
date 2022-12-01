@@ -210,8 +210,6 @@ footer {
     background-color: #002855;
     height: auto;
     color: white;
-    display: flex;
-    flex-direction: column;
 }
 
 .product-text {
@@ -224,13 +222,13 @@ footer {
 }
 
 
-#social i {
+/*#social i {
     font-size: 24px;
     padding: 1.2em;
     margin: auto;
 
 }
-
+*/
 /* MOBILE */
 
 @media (max-width: 450px) {
@@ -284,5 +282,8 @@ footer {
     #video-benefits {
         width: 400px;
         padding: 1em;
+    }
+    footer {
+        width: auto;
     }
 }
