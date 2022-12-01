@@ -229,7 +229,7 @@ footer {
 }
 
 
-#social a, i{
+#social > a{
     font-size: 24px;
     padding: .2em;
     width: 2%;
@@ -283,13 +283,11 @@ footer {
     }
     #video {
         flex-direction: column;
-        width: auto;
         justify-content: center;
     }
     #video-describe {
-        max-width: auto;
+        max-width: 100%;
         text-align: justify;
-        padding: .3em;
     }
     #video-benefits iframe {
         width: 400px;
@@ -298,5 +296,10 @@ footer {
     }
     footer {
         width: auto;
+    }
+
+    .product-text {
+        color: white;
+        text-decoration: none;
     }
 }
