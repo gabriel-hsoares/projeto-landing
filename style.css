@@ -18,11 +18,19 @@
 
 /* Event form */
 
-#logos,
+#logos {
+    text-align: center;
+}
+
 #logos img {
     width: 150px;
     margin: auto;
     padding: .4em;
+}
+
+.beneficium {
+    width: 100%;
+    background-color: var(--primary);
 }
 
 #head-page {
@@ -251,10 +259,6 @@ footer {
         flex-direction: column;
         height: auto;
         width: auto;
-    }
-
-    #logos img {
-        width: 90px;
     }
 
     #disclaimer {
