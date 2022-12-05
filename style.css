@@ -260,27 +260,22 @@ footer {
         height: auto;
         width: auto;
     }
-
     #disclaimer {
         padding: 2em;
     }
-
     #disclaimer h2 {
         margin-bottom: .5em;
     }
-
     #subscription-form {
         max-width: 70%;
         margin-bottom: 2em;
     }
-
     .benefits {
         flex-direction: column;
         align-items: center;
         width: auto;
         padding: 2em;
     }
-
     .benefit{
         max-width: 100%;
         margin: 2em;
@@ -299,18 +294,15 @@ footer {
         text-align: justify;
         margin-left: 0;
     }
-    
     footer {
         width: auto;
         height: auto;
     }
-
     #video-benefits > iframe {
         width: 400px;
         margin-left: -88%;
         
     }
-
     .product-text {
         color: white;
         text-decoration: none;
