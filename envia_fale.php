@@ -1,5 +1,5 @@
 <?php
-$destinatario = "gabriel.beneficium@gmail.com";
+$destinatario = "cadastro.beneficium@gmail.com";
 
 $nome = $_REQUEST['nome'];
 $email = $_REQUEST['email'];
