@@ -322,4 +322,8 @@ footer {
         padding: .8em;
         width: 90%;
     }
+    .product-text a {
+        color: white;
+        text-decoration: none;
+    }
 }
