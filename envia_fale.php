@@ -23,3 +23,4 @@ mail($destinatario, $assunto , $body, "From: $email\r\n");
 // redireciona para a página de obrigado
 header("location:obrigado.htm");
 
+?>
