@@ -3,8 +3,8 @@ $destinatario = "gabriel.beneficium@gmail.com";
 
 $nome = $_REQUEST['nome'];
 $email = $_REQUEST['email'];
-$telefone = $_REQUEST['tel'];
-$interesse = $_REQUEST['interest'];
+$tel = $_REQUEST['tel'];
+$interest = $_REQUEST['interest'];
 
  // monta o e-mail na variavel $body
 
