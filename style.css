@@ -312,8 +312,8 @@ footer {
         height: auto;
     }
     #video-benefits > iframe {
-        width: 300px;
-        margin-left: -88%;
+        width: 90vw;
+        margin-left: -78%;
         
     }
     .product-text {
