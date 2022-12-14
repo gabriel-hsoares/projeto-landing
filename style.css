@@ -266,7 +266,7 @@ footer {
 
 /* MOBILE */
 
-@media (max-width: 460px) {
+@media (max-width: 625px) {
     /*EVENT FORM*/
     #head-page {
         flex-direction: column;
@@ -312,8 +312,8 @@ footer {
         height: auto;
     }
     #video-benefits > iframe {
-        width: 350px;
-        margin-left: -65%;
+        width: 400px;
+        margin-left: -88%;
         
     }
     .product-text {
