@@ -266,7 +266,7 @@ footer {
 
 /* MOBILE */
 
-@media (max-width: 450px) {
+@media (max-width: 460px) {
     /*EVENT FORM*/
     #head-page {
         flex-direction: column;
