@@ -17,10 +17,12 @@
     box-sizing: border-box;
 }
 
+
 /* Event form */
 
 #logos {
     text-align: center;
+    width: 100%;
 }
 
 #logos img {
@@ -36,7 +38,7 @@
 
 #head-page {
     height: 85vh;
-    width: 98.9vw;
+    width: 100%;
     background-color: var(--primary);
     display: flex;
     justify-content: space-around;
@@ -181,6 +183,7 @@
 .benefit {
     text-align: center;
     display: flex;
+    margin: 0 15px;
     flex-direction: column;
     align-items: center;
     max-width: 20%;
